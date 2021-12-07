@@ -10,10 +10,15 @@ public class CompanyInfo {
 	public void companyAddress() {
 		System.out.println("Chennai");
 	}
+	public void companyNewPincode() {
+		System.out.println("600019");
+
+	}
 	public static void main(String[] args) {
 		CompanyInfo details = new CompanyInfo();
 		details.companyName();
 		details.companyId();
 		details.companyAddress();
+		details.companyNewPincode();
 	}
 }
